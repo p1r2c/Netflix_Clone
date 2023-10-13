@@ -44,16 +44,14 @@ nav button{
     cursor: pointer;
 }
 .language-btn{
-    display: inline-flex;
-    align-items: center;
     background: transparent;
     border: 1px solid #fff;
-    padding: 7px 10px;
+    padding: 2px 10px;
+    color: white;
 }
-.language-btn img{
-    width: 10px;
-    margin-left: 10px;
-    
+.language-btn option{
+    background: transparent;
+    color: black;
 }
 
 .header-content{

@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="header">
         <nav>
             <img src="images/Nlogo.png" class="logo">
             <div>
-                <button class="language-btn">English<img src="images/drop-down.png"></button>
+                <select name="lang" class="language-btn">
+                    <option value="english" selected="selected">English</option>
+                    <option value="hindi">Hindi</option>
+                </select>
                 <button>Sign In</button>
             </div>
         </nav>
@@ -193,7 +197,10 @@
         
     </div>
   </div>
-  <button class="language-btn">English<img src="images/drop-down.png"></button>
+  <select name="lang" class="language-btn">
+    <option value="english" selected="selected">English</option>
+    <option value="hindi">Hindi</option>
+</select>
   <p class="copyright-txt">Netflix India</p>     
 </div>
 </body>
