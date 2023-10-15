@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
 
 body{
     background: #000;
     color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -52,6 +52,7 @@ nav button{
 .language-btn option{
     background: transparent;
     color: black;
+    
 }
 
 .header-content{
@@ -64,11 +65,13 @@ nav button{
 }
 
 .header-content h1{
-    font-size: 25px;
-    line-height: 50px;
-    font-weight: 800;
-    width: 600px;
+    width: 100%;
+    margin: auto;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    word-wrap: break-word;
+    font-weight: 900;
 }
+
 .header-content h3{
 
     font-size: 15px;
@@ -102,6 +105,11 @@ nav button{
     padding: 15px 13px;
     
 }
+hr {
+    height: 6px;
+    background-color: rgb(35, 35, 35);
+    border: none;
+  }
 /* feature Section */
 .features{
     padding: 50px 12%;
@@ -195,7 +203,7 @@ input[type="radio"]{
 
 }
 .accordion input[type="radio"]:checked+label::after{
-    transform: rotate(135deg);
+    transform: rotate(45deg);
 }
 .faq .email-signup {
     max-width: 600px;
@@ -205,9 +213,10 @@ input[type="radio"]{
     font-size: 13px;
 }
 /*----Footer---*/
+
 .footer{
     padding: 50px 15% 10px;
-    border-top:8px solid #333;
+
     
     color: #777;
 }
@@ -245,7 +254,7 @@ input[type="radio"]{
 
 }
 /*-------media queries for small screen------*/
-@media  only screen and(max-width: 600px) {
+@media  screen and (max-width: 1000px) {
     .logo{
         width: 100px;
 
