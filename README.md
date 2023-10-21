@@ -1,2 +1,4 @@
 # Netflix_Clone
-Clone website of Netflix 
+The clone website of Netflix 
+Author - Prachi Vijayvargiya
+
